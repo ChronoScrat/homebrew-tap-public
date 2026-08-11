@@ -5,7 +5,7 @@ class MetabaseCLI < Formula
     sha256 "30aef4c0623e0e650003a069ec75e4314f6b78b915b22ae21b265acd5d923146"
     version "0.3.0"
     license "AGPL-3.0-only"
-    head "https://github.com/metabase/metabase-cli.git", branch "main"
+    head "https://github.com/metabase/metabase-cli.git", branch: "main"
 
     depends_on "bun" => :build
     depends_on "node"
