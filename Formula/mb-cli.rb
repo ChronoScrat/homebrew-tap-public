@@ -1,4 +1,4 @@
-class MetabaseCLI < Formula
+class MbCli < Formula
   desc "Command-line client for Metabase"
   homepage "https://github.com/metabase/metabase-cli"
   url "https://github.com/metabase/metabase-cli/archive/0a824792abefeb6b5e75bab190c019c37db8f8c1.tar.gz"
