@@ -1,6 +1,8 @@
 class MbCli < Formula
   desc "Command-line client for Metabase"
   homepage "https://github.com/metabase/metabase-cli"
+  # As of yet, the MB team does not publish tags or releases on Github; the commit
+  # matches the one published in NPM
   url "https://github.com/metabase/metabase-cli/archive/0a824792abefeb6b5e75bab190c019c37db8f8c1.tar.gz"
   version "0.3.0"
   sha256 "30aef4c0623e0e650003a069ec75e4314f6b78b915b22ae21b265acd5d923146"
